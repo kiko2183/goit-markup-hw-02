@@ -4,15 +4,21 @@ body {
   letter-spacing: 0.02em;
   background-color: white;
 }
+
 adress {
   font-style: normal;
 }
+
 a {
   text-decoration: none;
 }
+
 ul {
   list-style-type: none;
 }
+
+/*-------------------header-------------------*/
+
 .nav-title {
   color: #4d5ae5;
   font-size: 18px;
@@ -22,6 +28,7 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+
 .nav-logo {
   color: #2e2f42;
   font-size: 18px;
@@ -31,6 +38,7 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+
 .navigation {
   color: #2e2f42;
   font-size: 16px;
@@ -38,10 +46,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .navigation:focus,
 .navigation:hover {
   color: #404bbf;
 }
+
 .address {
   color: #434455;
   font-size: 16px;
@@ -49,10 +59,12 @@ ul {
   font-weight: 400;
   line-height: 1.5;
 }
+
 .address:hover,
 .address:focus {
   color: #404bbf;
 }
+
 .title-text {
   color: white;
   font-size: 56px;
@@ -61,9 +73,15 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
 }
+
+/*----------------------------------------------*/
+
+/*-------------------Section1-------------------*/
+
 .title {
   background-color: #2e2f42;
 }
+
 .title-button {
   color: white;
   font-size: 16px;
@@ -77,13 +95,20 @@ ul {
   background: #4d5ae5;
   cursor: pointer;
 }
+
 .title-button:hover,
 .title-button:focus {
   background: #404bbf;
 }
+
 .title-button:active {
   color: #404bbf;
 }
+
+/*----------------------------------------------*/
+
+/*-------------------Section2-------------------*/
+
 .Future {
   font-size: 20px;
   color: #2e2f42;
@@ -91,27 +116,40 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .Future-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/*----------------------------------------------*/
+
+/*-------------------Section3-------------------*/
+
 .team {
   background-color: #f4f4fd;
 }
+
 .names {
   font-size: 20px;
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
 }
+
 .under-names {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 }
-.titles {
+
+/*----------------------------------------------*/
+
+/*-------------------Section4-------------------*/
+
+.title-app {
   font-size: 36px;
   color: #2e2f42;
   font-weight: 700;
@@ -126,12 +164,19 @@ ul {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
+
 .under-app {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 }
+
+/*--------------------------------------------*/
+
+/*-------------------Footer-------------------*/
+
 .footer-title {
   color: #f4f4fd;
   font-size: 18px;
@@ -141,21 +186,26 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+
 .footer-logo {
   color: #4d5ae5;
   font-size: 18px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
+
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 }
+
 .end {
   background-color: #2e2f42;
 }
+
+/*--------------------------------------------*/
