@@ -4,11 +4,6 @@ body {
   letter-spacing: 0.02em;
   background-color: white;
 }
-
-adress {
-  font-style: normal;
-}
-
 a {
   text-decoration: none;
 }
@@ -25,7 +20,7 @@ ul {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
@@ -35,7 +30,7 @@ ul {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
@@ -58,20 +53,12 @@ ul {
   font-family: Roboto sans-serif;
   font-weight: 400;
   line-height: 1.5;
+  font-style: normal;
 }
 
 .address:hover,
 .address:focus {
   color: #404bbf;
-}
-
-.title-text {
-  color: white;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.02em;
 }
 
 /*----------------------------------------------*/
@@ -80,6 +67,15 @@ ul {
 
 .title {
   background-color: #2e2f42;
+}
+
+.title-text {
+  color: white;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .title-button {
@@ -108,6 +104,20 @@ ul {
 /*----------------------------------------------*/
 
 /*-------------------Section2-------------------*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .Future {
   font-size: 20px;
