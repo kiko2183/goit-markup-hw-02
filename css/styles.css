@@ -3,15 +3,19 @@ body {
   color: #434455;
   letter-spacing: 0.02em;
   background-color: white;
+  margin: 0;
+  text-align: left;
 }
+
 a {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
 /*-------------------header-------------------*/
 
 .nav-title {
