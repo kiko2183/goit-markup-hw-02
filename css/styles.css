@@ -4,7 +4,6 @@ body {
   letter-spacing: 0.02em;
   background-color: white;
 }
-
 a {
   text-decoration: none;
 }
@@ -85,6 +84,10 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   background: #4d5ae5;
   cursor: pointer;
 }
@@ -101,13 +104,6 @@ address {
 /*----------------------------------------------*/
 
 /*-------------------Section2-------------------*/
-
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(100%);
-  white-space: nowrap;
-  overflow: hidden;
-}
 
 .Future {
   font-size: 20px;
@@ -129,7 +125,17 @@ address {
 /*-------------------Section3-------------------*/
 
 .team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
+}
+
+.our-team {
+  color: #2e2f42;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 .names {
@@ -150,13 +156,13 @@ address {
 /*-------------------Section4-------------------*/
 
 .title-app {
-  font-size: 36px;
   color: #2e2f42;
+  font-size: 36px;
+  font-family: Roboto;
   font-weight: 700;
   text-transform: capitalize;
   line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 
 .app {
