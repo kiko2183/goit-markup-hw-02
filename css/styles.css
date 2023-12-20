@@ -1,8 +1,11 @@
 body {
   font-family: Roboto, sans-serif;
-  color: #2e2f42;
+  color: #434455;
   letter-spacing: 0.02em;
   background-color: white;
+}
+adress {
+  font-style: normal;
 }
 a {
   text-decoration: none;
@@ -13,7 +16,7 @@ ul {
 .nav-title {
   color: #4d5ae5;
   font-size: 18px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.16;
@@ -22,7 +25,7 @@ ul {
 .nav-logo {
   color: #2e2f42;
   font-size: 18px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.16;
@@ -39,13 +42,10 @@ ul {
 .navigation:hover {
   color: #404bbf;
 }
-.title-button:active {
-  color: #404bbf;
-}
 .address {
   color: #434455;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: Roboto sans-serif;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -53,11 +53,13 @@ ul {
 .address:focus {
   color: #404bbf;
 }
-h1 {
+.title-text {
   color: white;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .title {
   background-color: #2e2f42;
@@ -79,52 +81,70 @@ h1 {
 .title-button:focus {
   background: #404bbf;
 }
+.title-button:active {
+  color: #404bbf;
+}
 .Future {
   font-size: 20px;
+  color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .Future-text {
-  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .team {
-  background-color: #e7e9fc;
+  background-color: #f4f4fd;
 }
 .names {
   font-size: 20px;
+  color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
 }
 .under-names {
-  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 }
 .titles {
   font-size: 36px;
+  color: #2e2f42;
   font-weight: 700;
   text-transform: capitalize;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
+
 .app {
   font-size: 20px;
+  color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
 }
 .under-app {
-  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 }
-.footer-logo {
+.footer-title {
   color: #f4f4fd;
   font-size: 18px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.footer-logo {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.16;
