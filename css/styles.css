@@ -3,8 +3,6 @@ body {
   color: #434455;
   letter-spacing: 0.02em;
   background-color: white;
-  margin: 0;
-  text-align: left;
 }
 
 a {
@@ -13,9 +11,8 @@ a {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
+
 /*-------------------header-------------------*/
 
 .nav-title {
@@ -88,10 +85,6 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
   background: #4d5ae5;
   cursor: pointer;
 }
@@ -110,16 +103,9 @@ address {
 /*-------------------Section2-------------------*/
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
   clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  white-space: nowrap;
   overflow: hidden;
 }
 
