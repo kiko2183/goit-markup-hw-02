@@ -125,7 +125,7 @@ address {
 /*-------------------Section3-------------------*/
 
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .our-team {
@@ -136,6 +136,7 @@ address {
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .names {
@@ -143,12 +144,14 @@ address {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .under-names {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*----------------------------------------------*/
@@ -163,6 +166,7 @@ address {
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .app {
