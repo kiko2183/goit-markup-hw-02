@@ -105,7 +105,7 @@ address {
 
 /*-------------------Section2-------------------*/
 
-.Future {
+.futures {
   font-size: 20px;
   color: #2e2f42;
   font-weight: 500;
@@ -113,7 +113,7 @@ address {
   letter-spacing: 0.02em;
 }
 
-.Future-text {
+.future-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
